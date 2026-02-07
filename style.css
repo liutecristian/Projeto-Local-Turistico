@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 80px auto;
+  max-width: 1120px;
+  box-sizing: border-box;
+   font-family: "Open Sans", sans-serif;
+}
+
+.headline{
+  color: #E1624F;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.destaque, img{
+  border-radius: 28px;
+  max-width: 100%;
+}
+
+.subtitle{
+  text-align: center;
+  margin: 24px auto 40px;
+}
+
+.destinos{
+  border-color: #9d9d9d;
+  border-style: solid;
+  border-width: 1px 0 1px;
+  margin: 40px 0 40px;
+}
+
+#descricao{
+  margin: 40px 0 40px
+}
+
+.foto-destino{
+  width: 100%;
+  height: 350px;
+}
+
+.foto-destino img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
